@@ -40,7 +40,7 @@ searchbtn.addEventListener("click", async ()=>{
            
         }
         catch(error){
-            console.log(error);
+            resultdata.innerHTML=error;
         }
         
     }
